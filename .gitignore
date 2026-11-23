@@ -1,0 +1,21 @@
+# 데이터 원본 (저작권 문제로 공개 저장소에 올리지 않음)
+raw/
+clean/
+review/
+dataset/*
+!dataset/data.yaml
+*.zip
+
+# 원본 영상 클립 (결과 영상만 공개)
+videos/clips/*
+!videos/clips/.gitkeep
+
+# 학습 산출물 (필요한 것만 results/, models/ 로 복사해서 올림)
+runs/
+/yolov8*.pt
+/yolo11*.pt
+
+# 기타
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
