@@ -3,6 +3,8 @@ lap>=0.5.12
 opencv-python
 icrawler
 imagehash
+ddgs
+requests
 pandas
 matplotlib
 pyyaml
