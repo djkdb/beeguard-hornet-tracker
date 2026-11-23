@@ -1,0 +1,12 @@
+# Roboflow에서 YOLOv8 형식으로 내보낸 뒤, 02_train.ipynb가 path를 자동으로 고쳐 씁니다.
+# Roboflow는 부류 이름을 알파벳순으로 정렬하므로 아래 순서(0,1,2)와 같아야 합니다.
+path: /content/dataset
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 3
+names:
+  0: giant_hornet          # 장수말벌 (Vespa mandarinia)
+  1: honeybee              # 꿀벌 (Apis mellifera)
+  2: yellow_legged_hornet  # 등검은말벌 (Vespa velutina nigrithorax)
