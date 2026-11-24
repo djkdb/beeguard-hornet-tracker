@@ -31,6 +31,7 @@ import numpy as np
 
 HORNET_CLASSES = {"giant_hornet", "yellow_legged_hornet"}
 KO_NAME = {"honeybee": "꿀벌", "giant_hornet": "장수말벌", "yellow_legged_hornet": "등검은말벌"}
+BOX_COLORS = {"honeybee": (5, 183, 242), "giant_hornet": (70, 57, 230), "yellow_legged_hornet": (229, 93, 155)}  # BGR
 TRAIL_COLORS = {  # BGR
     "honeybee": (0, 200, 255),
     "giant_hornet": (0, 0, 255),
@@ -88,6 +89,7 @@ def parse_args():
     ap.add_argument("--conf", type=float, default=0.25, help="신뢰도 임계값")
     ap.add_argument("--tracker", default="bytetrack.yaml", help="bytetrack.yaml 또는 botsort.yaml")
     ap.add_argument("--trail", type=int, default=45, help="궤적으로 그릴 최근 프레임 수")
+    ap.add_argument("--clean", action="store_true", help="꿀벌은 얇은 박스만, 말벌만 이름·ID 표시 (화면이 덜 복잡함)")
     ap.add_argument("--hover-window", type=float, default=1.0, help="속도 계산 구간(초)")
     ap.add_argument("--hover-speed", type=float, default=1.0, help="이 값(몸길이/초) 이하이면 느린 상태")
     ap.add_argument("--hover-min", type=float, default=1.0, help="느린 상태가 이 시간(초) 이상 이어지면 정지비행")
@@ -135,7 +137,18 @@ def main():
         t = frame_idx / fps
         res = model.track(frame, persist=True, imgsz=args.imgsz, conf=args.conf,
                           tracker=args.tracker, verbose=False)[0]
-        canvas = res.plot(line_width=2)
+        canvas = frame.copy() if args.clean else res.plot(line_width=2)
+        if args.clean and res.boxes is not None and len(res.boxes):
+            bid = res.boxes.id.int().cpu().tolist() if res.boxes.id is not None else [None] * len(res.boxes)
+            for (x0, y0, x1, y1), c, tid in zip(res.boxes.xyxy.cpu().numpy().astype(int), res.boxes.cls.int().cpu().tolist(), bid):
+                nm = names[int(c)]
+                col = BOX_COLORS.get(nm, (255, 255, 255))
+                cv2.rectangle(canvas, (x0, y0), (x1, y1), col, 1 if nm == "honeybee" else 3, cv2.LINE_AA)
+                if nm in HORNET_CLASSES:
+                    txt = f"{nm.replace('_', ' ')} #{tid}" if tid is not None else nm.replace('_', ' ')
+                    (tw_, th_), _ = cv2.getTextSize(txt, cv2.FONT_HERSHEY_SIMPLEX, 0.6, 2)
+                    cv2.rectangle(canvas, (x0, y0 - th_ - 8), (x0 + tw_ + 6, y0), col, -1)
+                    cv2.putText(canvas, txt, (x0 + 3, y0 - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 2, cv2.LINE_AA)
 
         if res.boxes is not None and res.boxes.id is not None:
             xywh = res.boxes.xywh.cpu().numpy()
