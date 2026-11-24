@@ -1,0 +1,872 @@
+{
+ "giant_hornet_0004": {
+  "delete": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ]
+ },
+ "giant_hornet_0006": {
+  "delete": [
+   2
+  ]
+ },
+ "giant_hornet_0013": {
+  "delete": [
+   0,
+   2
+  ]
+ },
+ "giant_hornet_0016": {
+  "delete": [
+   1
+  ]
+ },
+ "giant_hornet_0023": {
+  "delete": [
+   1
+  ]
+ },
+ "giant_hornet_0027": {
+  "delete": [
+   3
+  ]
+ },
+ "giant_hornet_0035": {
+  "delete": [
+   1
+  ]
+ },
+ "giant_hornet_0039": {
+  "delete": [
+   1
+  ]
+ },
+ "giant_hornet_0047": {
+  "delete": [
+   1,
+   2
+  ]
+ },
+ "giant_hornet_0057": {
+  "drop": true
+ },
+ "giant_hornet_0058": {
+  "delete": [
+   1,
+   2
+  ]
+ },
+ "giant_hornet_0060": {
+  "delete": [
+   1,
+   4
+  ],
+  "relabel": {
+   "2": "giant_hornet"
+  }
+ },
+ "giant_hornet_0063": {
+  "delete": [
+   1
+  ],
+  "relabel": {
+   "2": "giant_hornet"
+  }
+ },
+ "giant_hornet_0068": {
+  "delete": [
+   1,
+   2
+  ]
+ },
+ "giant_hornet_0078": {
+  "delete": [
+   2
+  ]
+ },
+ "giant_hornet_0083": {
+  "delete": [
+   1
+  ]
+ },
+ "giant_hornet_0101": {
+  "drop": true
+ },
+ "giant_hornet_0103": {
+  "delete": [
+   1
+  ]
+ },
+ "giant_hornet_0107": {
+  "relabel": {
+   "1": "giant_hornet"
+  }
+ },
+ "giant_hornet_0108": {
+  "delete": [
+   3
+  ]
+ },
+ "giant_hornet_0117": {
+  "delete": [
+   2
+  ],
+  "relabel": {
+   "0": "giant_hornet"
+  }
+ },
+ "giant_hornet_0118": {
+  "delete": [
+   1
+  ]
+ },
+ "giant_hornet_0120": {
+  "delete": [
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ "giant_hornet_0121": {
+  "delete": [
+   2
+  ]
+ },
+ "giant_hornet_0123": {
+  "delete": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ]
+ },
+ "giant_hornet_0127": {
+  "drop": true
+ },
+ "giant_hornet_0128": {
+  "delete": [
+   1
+  ]
+ },
+ "giant_hornet_0164": {
+  "delete": [
+   1
+  ]
+ },
+ "giant_hornet_0180": {
+  "delete": [
+   1
+  ]
+ },
+ "giant_hornet_0186": {
+  "drop": true
+ },
+ "giant_hornet_0188": {
+  "delete": [
+   0
+  ]
+ },
+ "giant_hornet_0192": {
+  "delete": [
+   1
+  ]
+ },
+ "giant_hornet_0197": {
+  "relabel": {
+   "1": "giant_hornet"
+  }
+ },
+ "giant_hornet_0203": {
+  "delete": [
+   1,
+   2
+  ]
+ },
+ "giant_hornet_0204": {
+  "delete": [
+   1
+  ]
+ },
+ "giant_hornet_0207": {
+  "delete": [
+   1
+  ]
+ },
+ "giant_hornet_0214": {
+  "drop": true
+ },
+ "giant_hornet_0230": {
+  "drop": true
+ },
+ "giant_hornet_0245": {
+  "delete": [
+   1
+  ]
+ },
+ "giant_hornet_0277": {
+  "delete": [
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ "giant_hornet_0297": {
+  "delete": [
+   1,
+   2
+  ]
+ },
+ "giant_hornet_0335": {
+  "delete": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ]
+ },
+ "giant_hornet_0343": {
+  "delete": [
+   1
+  ]
+ },
+ "giant_hornet_0354": {
+  "delete": [
+   0
+  ]
+ },
+ "giant_hornet_0356": {
+  "delete": [
+   1
+  ]
+ },
+ "giant_hornet_0360": {
+  "relabel": {
+   "1": "giant_hornet"
+  }
+ },
+ "giant_hornet_0361": {
+  "delete": [
+   1
+  ]
+ },
+ "giant_hornet_0362": {
+  "relabel": {
+   "1": "giant_hornet"
+  }
+ },
+ "giant_hornet_0366": {
+  "delete": [
+   1
+  ]
+ },
+ "giant_hornet_0368": {
+  "delete": [
+   1,
+   2
+  ]
+ },
+ "giant_hornet_0410": {
+  "delete": [
+   0
+  ],
+  "relabel": {
+   "1": "giant_hornet"
+  }
+ },
+ "giant_hornet_0413": {
+  "relabel": {
+   "0": "giant_hornet"
+  }
+ },
+ "giant_hornet_0420": {
+  "delete": [
+   1,
+   3
+  ]
+ },
+ "giant_hornet_0423": {
+  "drop": true
+ },
+ "giant_hornet_0431": {
+  "drop": true
+ },
+ "giant_hornet_0439": {
+  "drop": true
+ },
+ "giant_hornet_0440": {
+  "drop": true
+ },
+ "giant_hornet_0446": {
+  "relabel": {
+   "1": "giant_hornet"
+  }
+ },
+ "giant_hornet_0450": {
+  "delete": [
+   3
+  ],
+  "relabel": {
+   "2": "giant_hornet"
+  }
+ },
+ "giant_hornet_0464": {
+  "drop": true
+ },
+ "giant_hornet_0486": {
+  "drop": true
+ },
+ "giant_hornet_0500": {
+  "delete": [
+   1
+  ]
+ },
+ "giant_hornet_0513": {
+  "relabel": {
+   "0": "honeybee",
+   "1": "honeybee",
+   "2": "honeybee",
+   "3": "honeybee"
+  }
+ },
+ "giant_hornet_0534": {
+  "drop": true
+ },
+ "giant_hornet_0538": {
+  "drop": true
+ },
+ "giant_hornet_0543": {
+  "drop": true
+ },
+ "giant_hornet_0632": {
+  "drop": true
+ },
+ "giant_hornet_0642": {
+  "drop": true
+ },
+ "giant_hornet_0661": {
+  "drop": true
+ },
+ "giant_hornet_0673": {
+  "drop": true
+ },
+ "giant_hornet_0675": {
+  "relabel": {
+   "3": "giant_hornet"
+  }
+ },
+ "giant_hornet_0680": {
+  "delete": [
+   1
+  ],
+  "relabel": {
+   "0": "giant_hornet"
+  }
+ },
+ "giant_hornet_0692": {
+  "relabel": {
+   "2": "giant_hornet",
+   "4": "giant_hornet",
+   "5": "giant_hornet"
+  }
+ },
+ "giant_hornet_0708": {
+  "delete": [
+   3,
+   4
+  ],
+  "relabel": {
+   "2": "giant_hornet"
+  }
+ },
+ "giant_hornet_0715": {
+  "relabel": {
+   "0": "giant_hornet"
+  }
+ },
+ "giant_hornet_0729": {
+  "delete": [
+   1
+  ]
+ },
+ "giant_hornet_0737": {
+  "delete": [
+   1
+  ]
+ },
+ "giant_hornet_0738": {
+  "drop": true
+ },
+ "giant_hornet_0740": {
+  "delete": [
+   0
+  ]
+ },
+ "giant_hornet_0741": {
+  "drop": true
+ },
+ "giant_hornet_0757": {
+  "drop": true
+ },
+ "giant_hornet_0759": {
+  "relabel": {
+   "2": "giant_hornet",
+   "3": "giant_hornet",
+   "4": "giant_hornet"
+  }
+ },
+ "honeybee_0008": {
+  "drop": true
+ },
+ "honeybee_0015": {
+  "delete": [
+   1
+  ]
+ },
+ "honeybee_0029": {
+  "drop": true
+ },
+ "honeybee_0090": {
+  "drop": true
+ },
+ "honeybee_0114": {
+  "drop": true
+ },
+ "honeybee_0121": {
+  "delete": [
+   1
+  ]
+ },
+ "honeybee_0143": {
+  "drop": true
+ },
+ "honeybee_0183": {
+  "delete": [
+   3
+  ]
+ },
+ "honeybee_0204": {
+  "drop": true
+ },
+ "honeybee_0205": {
+  "delete": [
+   1
+  ]
+ },
+ "honeybee_0237": {
+  "delete": [
+   1
+  ]
+ },
+ "honeybee_0242": {
+  "delete": [
+   1
+  ]
+ },
+ "honeybee_0257": {
+  "delete": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ]
+ },
+ "honeybee_0268": {
+  "drop": true
+ },
+ "honeybee_0291": {
+  "delete": [
+   1
+  ]
+ },
+ "honeybee_0304": {
+  "delete": [
+   1
+  ]
+ },
+ "honeybee_0313": {
+  "delete": [
+   1
+  ]
+ },
+ "honeybee_0348": {
+  "delete": [
+   1
+  ]
+ },
+ "honeybee_0374": {
+  "delete": [
+   0,
+   2
+  ]
+ },
+ "honeybee_0375": {
+  "delete": [
+   1
+  ]
+ },
+ "honeybee_0379": {
+  "delete": [
+   1
+  ]
+ },
+ "honeybee_0387": {
+  "drop": true
+ },
+ "honeybee_0389": {
+  "drop": true
+ },
+ "honeybee_0417": {
+  "drop": true
+ },
+ "honeybee_0423": {
+  "drop": true
+ },
+ "honeybee_0427": {
+  "drop": true
+ },
+ "honeybee_0461": {
+  "drop": true
+ },
+ "honeybee_0486": {
+  "drop": true
+ },
+ "honeybee_0498": {
+  "delete": [
+   4
+  ]
+ },
+ "honeybee_0506": {
+  "drop": true
+ },
+ "honeybee_0524": {
+  "drop": true
+ },
+ "honeybee_0539": {
+  "drop": true
+ },
+ "honeybee_0610": {
+  "drop": true
+ },
+ "honeybee_0617": {
+  "drop": true
+ },
+ "honeybee_0623": {
+  "drop": true
+ },
+ "honeybee_0663": {
+  "drop": true
+ },
+ "honeybee_0696": {
+  "drop": true
+ },
+ "honeybee_0732": {
+  "drop": true
+ },
+ "honeybee_0794": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0006": {
+  "delete": [
+   1
+  ]
+ },
+ "yellow_legged_hornet_0008": {
+  "delete": [
+   2
+  ]
+ },
+ "yellow_legged_hornet_0015": {
+  "delete": [
+   1
+  ]
+ },
+ "yellow_legged_hornet_0016": {
+  "delete": [
+   1
+  ]
+ },
+ "yellow_legged_hornet_0017": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0019": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0031": {
+  "delete": [
+   0,
+   1,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ]
+ },
+ "yellow_legged_hornet_0073": {
+  "delete": [
+   1
+  ]
+ },
+ "yellow_legged_hornet_0076": {
+  "delete": [
+   1
+  ]
+ },
+ "yellow_legged_hornet_0078": {
+  "delete": [
+   1
+  ]
+ },
+ "yellow_legged_hornet_0102": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0116": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0117": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0123": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0126": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0133": {
+  "delete": [
+   0
+  ],
+  "relabel": {
+   "2": "yellow_legged_hornet"
+  }
+ },
+ "yellow_legged_hornet_0139": {
+  "delete": [
+   1
+  ]
+ },
+ "yellow_legged_hornet_0140": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0142": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0154": {
+  "delete": [
+   1
+  ]
+ },
+ "yellow_legged_hornet_0166": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0173": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0184": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0193": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0199": {
+  "delete": [
+   1
+  ]
+ },
+ "yellow_legged_hornet_0210": {
+  "delete": [
+   1
+  ]
+ },
+ "yellow_legged_hornet_0220": {
+  "delete": [
+   1
+  ]
+ },
+ "yellow_legged_hornet_0234": {
+  "relabel": {
+   "1": "yellow_legged_hornet"
+  }
+ },
+ "yellow_legged_hornet_0278": {
+  "delete": [
+   1
+  ]
+ },
+ "yellow_legged_hornet_0285": {
+  "relabel": {
+   "1": "yellow_legged_hornet"
+  }
+ },
+ "yellow_legged_hornet_0320": {
+  "delete": [
+   1,
+   2,
+   3
+  ]
+ },
+ "yellow_legged_hornet_0390": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0396": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0402": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0429": {
+  "delete": [
+   1,
+   2
+  ]
+ },
+ "yellow_legged_hornet_0450": {
+  "delete": [
+   1
+  ]
+ },
+ "yellow_legged_hornet_0476": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0499": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0515": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0536": {
+  "delete": [
+   1
+  ]
+ },
+ "yellow_legged_hornet_0537": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0540": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0541": {
+  "delete": [
+   1
+  ]
+ },
+ "yellow_legged_hornet_0543": {
+  "delete": [
+   1
+  ]
+ },
+ "yellow_legged_hornet_0545": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0611": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0618": {
+  "delete": [
+   1
+  ]
+ },
+ "yellow_legged_hornet_0657": {
+  "relabel": {
+   "1": "honeybee"
+  }
+ },
+ "yellow_legged_hornet_0660": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0661": {
+  "delete": [
+   0
+  ]
+ },
+ "yellow_legged_hornet_0693": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0696": {
+  "delete": [
+   0
+  ]
+ },
+ "yellow_legged_hornet_0702": {
+  "drop": true
+ },
+ "giant_hornet_0234": {
+  "drop": true
+ },
+ "giant_hornet_0427": {
+  "drop": true
+ },
+ "giant_hornet_0767": {
+  "drop": true
+ },
+ "honeybee_0209": {
+  "drop": true
+ },
+ "honeybee_0216": {
+  "drop": true
+ },
+ "honeybee_0317": {
+  "drop": true
+ },
+ "honeybee_0351": {
+  "drop": true
+ },
+ "honeybee_0627": {
+  "drop": true
+ },
+ "honeybee_0697": {
+  "drop": true
+ },
+ "honeybee_0719": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0001": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0034": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0038": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0121": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0250": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0730": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0741": {
+  "drop": true
+ },
+ "yellow_legged_hornet_0758": {
+  "drop": true
+ },
+ "honeybee_0297": {
+  "drop": true
+ }
+}

@@ -94,12 +94,14 @@
 beeguard-hornet-tracker/
 ├── dataset/data.yaml          # 부류 정의 (이미지는 미포함)
 ├── docs/labeling_guide.md     # 부류 구별 기준, 박스 규칙, Roboflow 설정
+├── labeling/                  # 자동 라벨 AI 검수 결과 (corrections.json, 판정 이유, 수동 수정 목록)
 ├── notebooks/                 # 01 수집·정제 → 01b 자동 라벨링 → 02 학습·실험 → 03 추적
 ├── scripts/
 │   ├── track_trajectory.py    # 탐지·추적·궤적·정지비행·로그
 │   ├── label_size_stats.py    # 입력 해상도별 객체 크기 분석
 │   ├── video_tools.py         # 클립 이어 붙이기, H.264 변환, GIF
-│   └── compare_autolabel.py   # 자동 라벨 vs 검수 후 최종 라벨 비교 (정밀도·재현율·수정량)
+│   ├── compare_autolabel.py   # 자동 라벨 vs 검수 후 최종 라벨 비교 (정밀도·재현율·수정량)
+│   └── apply_corrections.py   # AI 검수 결과(corrections.json)를 자동 라벨에 적용
 ├── models/best.pt             # 최종 학습 모델
 ├── results/                   # 실험표, 학습 곡선, 혼동 행렬, 그래프, GIF
 ├── videos/beeguard_tracking.mp4
