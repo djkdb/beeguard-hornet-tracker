@@ -1,0 +1,2 @@
+exp,imgsz,precision,recall,mAP50,mAP50-95,ms_per_img,fps,AP50_giant_hornet,AP50_honeybee,AP50_yellow_legged_hornet
+n320,320,0.6642,0.6699,0.7309,0.484,8.7137,114.7616,0.7246,0.7722,0.6959
