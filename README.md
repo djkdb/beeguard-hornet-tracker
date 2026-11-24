@@ -4,11 +4,7 @@
 
 [![honeybee tracking](results/hero.gif)](videos/beeguard_tracking.mp4)
 
-벌통 입구의 꿀벌을 한 마리씩 추적하는 장면(결과 영상 0~3초)과, 야외에서 떠 있는 장수말벌을 잡아 정지비행(HOVER)으로 표시하는 장면(추가 시험 영상, 말벌 부분을 확대)을 이어 붙였습니다. 누르면 15초 전체 영상으로 이동합니다.
-
-테스트 세트 사진에서의 예측 예시입니다. 세 부류 모두 학습에 쓰지 않은 사진에서 맞게 잡은 경우를 부류별로 3장씩 골랐습니다(틀린 경우는 [`results/failure_cases.jpg`](results/failure_cases.jpg)).
-
-![test predictions](results/test_predictions.jpg)
+벌통 입구의 꿀벌 20여 마리를 동시에 탐지하고, 마리마다 추적 ID를 유지하며 궤적을 그리는 5초 장면입니다(결과 영상 0~5초). 누르면 세 부류 구간을 이은 15초 전체 영상으로 이동합니다. 야외 장수말벌을 맞게 잡은 장면은 아래 "추가 시험"에 있습니다.
 
 [결과 영상](videos/beeguard_tracking.mp4) · [학습 모델](models/best.pt) · [결과보고서 PDF](report/result_report.pdf)
 
@@ -136,6 +132,7 @@ report/      결과보고서 (report_draft.md → result_report.pdf)
 - 라벨은 AI 검수까지만 거쳤고, 박스 크기 조정이 필요한 17장과 자동 박스가 없던 22장은 직접 고치지 못했습니다.
 - 추적 영상은 공개 클립을 이어 붙인 것이라 세 부류가 한 화면에 함께 나오지 않고, 실제 벌통 입구 환경을 그대로 보여 주지도 않습니다. 재사용 조건이 분명한 그런 영상은 찾지 못했습니다.
 - 등검은말벌 구간은 말벌이 작고 흐려서 거의 잡지 못했습니다.
+- 테스트 세트에서 여러 마리가 겹치거나 꿀벌과 말벌이 함께 찍힌 사진 5장에서는 15개체 중 3개만 맞혔습니다([`results/test_predictions_multi.jpg`](results/test_predictions_multi.jpg)). 학습 사진 대부분이 한 마리만 찍힌 접사라 여러 마리가 붙어 있는 장면에 약합니다.
 
 ## 출처
 
