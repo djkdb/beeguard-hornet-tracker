@@ -2,7 +2,9 @@
 
 직접 모으고 라벨링한 데이터로 YOLOv8을 학습해, 영상에서 꿀벌과 두 종의 말벌을 찾고 추적합니다. 추적한 궤적은 파일로 저장하고, 말벌이 한자리에 떠 있으면 정지비행(HOVER)으로 표시합니다. 충북대학교 머신러닝 과제로 진행했습니다.
 
-![tracking demo](results/demo.gif)
+[![tracking demo](results/demo.gif)](videos/beeguard_tracking.mp4)
+
+15초 영상을 GIF로 줄인 것입니다. 누르면 원본 영상(mp4)으로 이동합니다.
 
 [결과 영상](videos/beeguard_tracking.mp4) · [학습 모델](models/best.pt) · [결과보고서 PDF](report/result_report.pdf)
 
@@ -21,6 +23,8 @@
 <img src="results/n640/results.png" width="59%" alt="n640 학습 곡선">
 <img src="results/n640/test_confusion_matrix_normalized.png" width="39%" alt="n640 테스트 혼동 행렬">
 </p>
+
+왼쪽은 학습·검증 세트의 학습 곡선, 오른쪽은 테스트 세트의 정규화 혼동 행렬입니다.
 
 | 파일 | 내용 |
 | --- | --- |
@@ -117,4 +121,4 @@ report/      결과보고서 (report_draft.md → result_report.pdf)
 
 ## 라이선스
 
-코드는 [MIT License](LICENSE)를 따릅니다. 학습 이미지는 포함하지 않습니다. 결과 영상은 CC BY-SA 3.0 클립을 포함하므로 같은 CC BY-SA 3.0으로 공개합니다.
+코드는 [MIT License](LICENSE)를 따릅니다. 학습과 추론에 쓴 Ultralytics YOLOv8은 AGPL-3.0 라이선스입니다. 학습 이미지는 포함하지 않습니다. 결과 영상은 CC BY-SA 3.0 클립을 포함하므로 같은 CC BY-SA 3.0으로 공개합니다.
