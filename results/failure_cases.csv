@@ -1,87 +1,60 @@
 ﻿file,type,true,pred,conf
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/background_0076.jpg,오탐,-,honeybee,0.45496729016304016
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/background_0078.jpg,오탐,-,honeybee,0.41793927550315857
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0047.jpg,오탐,-,giant_hornet,0.3297264277935028
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0065.jpg,놓침,giant_hornet,-,0.0
 /tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0114.jpg,놓침,giant_hornet,-,0.0
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0114.jpg,오탐,-,giant_hornet,0.4125934839248657
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0132.jpg,놓침,giant_hornet,-,0.0
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0145.jpg,오탐,-,yellow_legged_hornet,0.33826205134391785
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0155.jpg,종 혼동,giant_hornet,yellow_legged_hornet,0.3874342143535614
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0269.jpg,종 혼동,giant_hornet,yellow_legged_hornet,0.5041428804397583
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0269.jpg,오탐,-,giant_hornet,0.2555343806743622
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0299.jpg,놓침,giant_hornet,-,0.0
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0299.jpg,오탐,-,yellow_legged_hornet,0.4713071286678314
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0114.jpg,오탐,-,giant_hornet,0.618379533290863
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0114.jpg,오탐,-,giant_hornet,0.4707922339439392
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0132.jpg,오탐,-,yellow_legged_hornet,0.2931066155433655
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0155.jpg,종 혼동,giant_hornet,yellow_legged_hornet,0.7798128128051758
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0269.jpg,종 혼동,giant_hornet,yellow_legged_hornet,0.7280452847480774
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0272.jpg,종 혼동,giant_hornet,honeybee,0.6711003184318542
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0299.jpg,종 혼동,giant_hornet,yellow_legged_hornet,0.4403441846370697
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0329.jpg,놓침,giant_hornet,-,0.0
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0329.jpg,오탐,-,giant_hornet,0.8469670414924622
 /tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0371.jpg,놓침,giant_hornet,-,0.0
 /tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0371.jpg,놓침,giant_hornet,-,0.0
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0371.jpg,오탐,-,giant_hornet,0.6733110547065735
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0513.jpg,종 혼동,honeybee,giant_hornet,0.429914653301239
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0371.jpg,오탐,-,giant_hornet,0.6845073103904724
 /tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0513.jpg,놓침,honeybee,-,0.0
 /tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0513.jpg,놓침,honeybee,-,0.0
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0517.jpg,오탐,-,yellow_legged_hornet,0.3901330530643463
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0627.jpg,종 혼동,giant_hornet,yellow_legged_hornet,0.5560101270675659
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0513.jpg,놓침,honeybee,-,0.0
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0561.jpg,놓침,giant_hornet,-,0.0
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0561.jpg,오탐,-,giant_hornet,0.8600202202796936
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0627.jpg,종 혼동,giant_hornet,yellow_legged_hornet,0.7470303177833557
 /tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0675.jpg,놓침,giant_hornet,-,0.0
 /tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0675.jpg,놓침,giant_hornet,-,0.0
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0675.jpg,오탐,-,giant_hornet,0.6112425923347473
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0684.jpg,종 혼동,giant_hornet,yellow_legged_hornet,0.33370429277420044
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0675.jpg,놓침,giant_hornet,-,0.0
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0675.jpg,놓침,giant_hornet,-,0.0
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0675.jpg,놓침,giant_hornet,-,0.0
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0675.jpg,오탐,-,giant_hornet,0.5108041763305664
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0684.jpg,종 혼동,giant_hornet,yellow_legged_hornet,0.7887552976608276
 /tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0684.jpg,놓침,honeybee,-,0.0
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0684.jpg,오탐,-,honeybee,0.5818306803703308
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0734.jpg,종 혼동,giant_hornet,yellow_legged_hornet,0.2914065420627594
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/giant_hornet_0734.jpg,오탐,-,giant_hornet,0.37454548478126526
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0004.jpg,오탐,-,honeybee,0.2939942181110382
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0013.jpg,오탐,-,yellow_legged_hornet,0.26871854066848755
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0021.jpg,오탐,-,honeybee,0.840185284614563
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0049.jpg,오탐,-,yellow_legged_hornet,0.43306806683540344
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0049.jpg,오탐,-,giant_hornet,0.3517255187034607
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0052.jpg,오탐,-,yellow_legged_hornet,0.493003249168396
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0071.jpg,오탐,-,honeybee,0.36786210536956787
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0071.jpg,오탐,-,honeybee,0.31356024742126465
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0092.jpg,오탐,-,yellow_legged_hornet,0.5693913698196411
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0101.jpg,오탐,-,honeybee,0.6991904377937317
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0126.jpg,오탐,-,giant_hornet,0.643869936466217
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0155.jpg,오탐,-,yellow_legged_hornet,0.3407342731952667
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0171.jpg,오탐,-,honeybee,0.6242533326148987
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0181.jpg,오탐,-,yellow_legged_hornet,0.3848838210105896
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0013.jpg,오탐,-,honeybee,0.43305155634880066
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0021.jpg,오탐,-,honeybee,0.8274829983711243
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0044.jpg,오탐,-,giant_hornet,0.791184663772583
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0049.jpg,오탐,-,giant_hornet,0.6656634211540222
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0052.jpg,오탐,-,giant_hornet,0.7050121426582336
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0071.jpg,오탐,-,honeybee,0.5257697701454163
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0092.jpg,오탐,-,yellow_legged_hornet,0.36136093735694885
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0101.jpg,오탐,-,yellow_legged_hornet,0.7561914324760437
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0126.jpg,오탐,-,giant_hornet,0.7747187614440918
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0128.jpg,오탐,-,honeybee,0.25185564160346985
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0155.jpg,오탐,-,yellow_legged_hornet,0.4606684148311615
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0155.jpg,오탐,-,yellow_legged_hornet,0.3355775773525238
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0171.jpg,오탐,-,honeybee,0.6067999601364136
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0181.jpg,오탐,-,yellow_legged_hornet,0.6807352304458618
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/hard_negative_0181.jpg,오탐,-,yellow_legged_hornet,0.36909228563308716
 /tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/honeybee_0024.jpg,놓침,honeybee,-,0.0
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/honeybee_0054.jpg,오탐,-,yellow_legged_hornet,0.3206115663051605
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/honeybee_0156.jpg,오탐,-,honeybee,0.28925609588623047
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/honeybee_0223.jpg,종 혼동,honeybee,giant_hornet,0.3853071331977844
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/honeybee_0223.jpg,오탐,-,yellow_legged_hornet,0.4051680862903595
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/honeybee_0263.jpg,오탐,-,honeybee,0.4811633825302124
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/honeybee_0265.jpg,오탐,-,honeybee,0.26171576976776123
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/honeybee_0276.jpg,종 혼동,honeybee,yellow_legged_hornet,0.2879335880279541
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/honeybee_0276.jpg,오탐,-,honeybee,0.36170926690101624
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/honeybee_0313.jpg,놓침,honeybee,-,0.0
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/honeybee_0313.jpg,오탐,-,honeybee,0.6616556644439697
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/honeybee_0637.jpg,종 혼동,honeybee,giant_hornet,0.6717891097068787
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/honeybee_0132.jpg,놓침,honeybee,-,0.0
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/honeybee_0223.jpg,종 혼동,honeybee,yellow_legged_hornet,0.33503174781799316
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/honeybee_0265.jpg,오탐,-,honeybee,0.3541313409805298
 /tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/honeybee_0667.jpg,놓침,honeybee,-,0.0
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/honeybee_0741.jpg,놓침,honeybee,-,0.0
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0032.jpg,종 혼동,yellow_legged_hornet,giant_hornet,0.4793524146080017
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0057.jpg,종 혼동,yellow_legged_hornet,giant_hornet,0.6218482851982117
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0057.jpg,오탐,-,yellow_legged_hornet,0.8348002433776855
 /tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0060.jpg,놓침,yellow_legged_hornet,-,0.0
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0060.jpg,오탐,-,giant_hornet,0.5574563145637512
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0060.jpg,오탐,-,yellow_legged_hornet,0.3288288712501526
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0070.jpg,오탐,-,giant_hornet,0.32956036925315857
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0075.jpg,종 혼동,yellow_legged_hornet,giant_hornet,0.7561939358711243
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0087.jpg,놓침,yellow_legged_hornet,-,0.0
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0087.jpg,오탐,-,yellow_legged_hornet,0.26525288820266724
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0154.jpg,종 혼동,yellow_legged_hornet,giant_hornet,0.2740675210952759
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0178.jpg,오탐,-,honeybee,0.2576444149017334
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0060.jpg,오탐,-,yellow_legged_hornet,0.6749661564826965
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0075.jpg,종 혼동,yellow_legged_hornet,giant_hornet,0.49221721291542053
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0087.jpg,오탐,-,yellow_legged_hornet,0.32024961709976196
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0154.jpg,종 혼동,yellow_legged_hornet,giant_hornet,0.8252235054969788
 /tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0199.jpg,놓침,yellow_legged_hornet,-,0.0
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0199.jpg,놓침,yellow_legged_hornet,-,0.0
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0199.jpg,오탐,-,yellow_legged_hornet,0.49307164549827576
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0206.jpg,오탐,-,giant_hornet,0.3353273570537567
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0214.jpg,놓침,yellow_legged_hornet,-,0.0
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0214.jpg,놓침,yellow_legged_hornet,-,0.0
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0214.jpg,오탐,-,yellow_legged_hornet,0.4762914478778839
 /tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0258.jpg,놓침,honeybee,-,0.0
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0376.jpg,오탐,-,yellow_legged_hornet,0.4058320224285126
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0385.jpg,놓침,yellow_legged_hornet,-,0.0
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0399.jpg,종 혼동,yellow_legged_hornet,giant_hornet,0.7232041358947754
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0523.jpg,종 혼동,yellow_legged_hornet,giant_hornet,0.4727897346019745
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0523.jpg,오탐,-,yellow_legged_hornet,0.5507072806358337
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0525.jpg,오탐,-,yellow_legged_hornet,0.30139657855033875
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0657.jpg,종 혼동,yellow_legged_hornet,honeybee,0.40414556860923767
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0399.jpg,오탐,-,giant_hornet,0.5107139348983765
 /tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0657.jpg,놓침,honeybee,-,0.0
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0657.jpg,오탐,-,yellow_legged_hornet,0.3469472825527191
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0658.jpg,오탐,-,giant_hornet,0.5685709118843079
-/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0722.jpg,종 혼동,yellow_legged_hornet,giant_hornet,0.746873140335083
+/tmp/claude-0/-home-user-beeguard-hornet-tracker/cbca2012-de9c-52b1-9f71-69f026c13797/scratchpad/dataset/test/images/yellow_legged_hornet_0722.jpg,종 혼동,yellow_legged_hornet,giant_hornet,0.7232853174209595

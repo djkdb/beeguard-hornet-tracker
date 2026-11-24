@@ -1,0 +1,5 @@
+﻿,예측:giant_hornet,예측:honeybee,예측:yellow_legged_hornet,예측:배경
+정답:giant_hornet,42,0,5,8
+정답:honeybee,3,35,1,9
+정답:yellow_legged_hornet,6,1,24,7
+정답:배경,12,15,19,0
