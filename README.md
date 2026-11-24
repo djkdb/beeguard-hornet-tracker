@@ -47,25 +47,27 @@
 
 | 구분 | 수집 | 정제 후 | 라벨 박스 수 |
 | --- | --- | --- | --- |
-| honeybee | – | – | – |
-| giant_hornet | – | – | – |
-| yellow_legged_hornet | – | – | – |
-| hard negative · 배경 | – | – | 0 (Null) |
+| honeybee | 2,013 | 432 | – |
+| giant_hornet | 1,687 | 529 | – |
+| yellow_legged_hornet | 1,787 | 385 | – |
+| hard negative · 배경 | 1,803 · 293 | 152 · 38 | 0 (Null) |
 
 - **수집**: 여러 경로에서 부류별로 크롤링 — iNaturalist·GBIF(학명, 야외 관찰 사진), Wikimedia Commons·Openverse(학명·영문명), 네이버(한국어), Bing·DuckDuckGo(영문명), Baidu(중국어). 이미지마다 출처·라이선스·작성자를 기록
 - **자동 정제**: 깨진 파일, 짧은 변 320px 미만, 극단적 가로세로 비율, 지각 해시 기반 중복 제거 (경로 간 중복은 관찰 사진 쪽을 남김)
 - **수작업 검수**: 일러스트, 표본, 말벌주, 전투기 사진, 다른 말벌 종 제거
-- **라벨링**: Grounding DINO로 초기 박스 생성 → Roboflow에서 전수 검수·수정, Train/Valid/Test = 70/20/10, Roboflow 증강 없음
+- **라벨링**: Grounding DINO로 초기 박스 생성 → 박스 번호를 붙인 시트로 AI(Claude) 검수 (사진 91장 제외, 박스 144개 삭제, 클래스 29개 수정) → 부류별 Train/Valid/Test = 70/20/10. 사람의 박스 미세 조정은 거치지 않았습니다(한계 참고)
 
 공개 데이터셋은 쓰지 않았습니다. 크롤링한 이미지는 저작권 문제로 저장소에 올리지 않으며, 이미지별 출처 URL은 `sources.csv`로 따로 보관합니다.
 
 ## 방법
 
 1. [`notebooks/01_collect_and_clean.ipynb`](notebooks/01_collect_and_clean.ipynb) — 크롤링, 자동 정제, 번호 붙은 미리보기로 검수, 출처 기록
-2. [`notebooks/01b_auto_label.ipynb`](notebooks/01b_auto_label.ipynb) — Grounding DINO(zero-shot)로 초기 박스 생성, 클래스는 폴더 기준으로 지정
-3. Roboflow — [라벨링 가이드](docs/labeling_guide.md)에 따라 자동 박스를 전수 검수·수정하고, 못 찾은 사진은 직접 라벨링한 뒤 YOLOv8 형식으로 내보내기
+2. [`notebooks/01b_auto_label.ipynb`](notebooks/01b_auto_label.ipynb) — Grounding DINO(zero-shot)로 초기 박스 생성(클래스는 폴더 기준), 번호 붙은 검수 시트 → 수정 목록 적용, Train/Valid/Test 분할
+3. (선택) Roboflow — [라벨링 가이드](docs/labeling_guide.md)에 따라 박스를 더 다듬고 YOLOv8 형식으로 내보내기
 4. [`notebooks/02_train.ipynb`](notebooks/02_train.ipynb) — 사전학습 가중치에서 전이학습, 비교 실험, 테스트 세트 평가
 5. [`notebooks/03_track.ipynb`](notebooks/03_track.ipynb) — 추적 영상, 궤적 로그, 정지비행 표시, 그래프
+
+02 노트북에 준비된 비교 실험입니다. 이번 제출에서는 입력 크기 비교만 돌렸습니다.
 
 | 비교 실험 | 확인하려는 것 |
 | --- | --- |
@@ -108,7 +110,7 @@ beeguard-hornet-tracker/
 ## 재현 방법
 
 1. Colab에서 노트북을 열고 런타임을 T4 GPU로 바꿉니다.
-2. `01` → Roboflow 라벨링 → `02` → `03` 순서로 실행합니다. 각 노트북 첫 셀의 `REPO_URL`을 본인 저장소 주소로 바꿉니다.
+2. `01` → `01b` → `02` → `03` 순서로 실행합니다. 노트북 사이의 파일은 Google Drive `MyDrive/beeguard/`로 주고받습니다. 각 노트북 첫 셀의 `REPO_URL`을 본인 저장소 주소로 바꿉니다.
 3. 로컬 실행 시: `pip install -r requirements.txt` 후 스크립트를 직접 실행합니다.
 
 ```bash
@@ -119,6 +121,7 @@ python scripts/video_tools.py h264 videos/beeguard_tracking_raw.mp4 videos/beegu
 
 ## 한계와 다음 단계
 
+- 라벨은 AI 검수까지만 거쳤습니다. 박스 크기 조정이 필요한 17장과 자동 박스가 없던 22장은 사람이 직접 고치지 못했습니다.
 - 웹 이미지는 접사가 많아, 벌이 작게 찍히는 실제 양봉장 영상과 차이가 있습니다. Step 2에서 고정 카메라로 현장 데이터를 모아 보완합니다.
 - 추적 영상은 공개 클립을 이어 붙인 것이라 실제 벌통 입구 환경을 그대로 대표하지는 않습니다.
 - 다음 단계: Jetson에서의 실시간 추론, 타일링(SAHI)을 이용한 고해상도 추론, 대시보드 연동
