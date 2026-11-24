@@ -26,7 +26,7 @@ const f3 = v => (+v).toFixed(3);
 const cover = `
 <section class="cover">
   <div class="eyebrow">머신러닝 과제 결과보고서</div>
-  <h1 class="title">YOLOv8 기반 꿀벌·장수말벌·등검은말벌<br>탐지 및 추적</h1>
+  <h1 class="title">YOLOv8 기반 꿀벌·장수말벌·등검은말벌 탐지 및 추적</h1>
   <table class="meta">
     <tr><th>학번 · 이름</th><td>2022041067 이성준</td><th>소속</th><td>충북대학교 소프트웨어학부</td></tr>
     <tr><th>GitHub</th><td colspan="3"><a href="${GITHUB}">${GITHUB}</a></td></tr>
@@ -64,7 +64,7 @@ td code { border: 0; background: none; padding: 0; font-size: 8.3pt; }
 /* 표지 */
 .cover { padding-top: 4mm; margin-bottom: 18px; }
 .eyebrow { color: var(--accent); font-weight: 700; letter-spacing: .08em; font-size: 9pt; }
-.title { font-size: 22pt; line-height: 1.35; margin: 8px 0 22px; border: 0; color: var(--dark); }
+.title { font-size: 21pt; white-space: nowrap; letter-spacing: -0.01em; line-height: 1.35; margin: 8px 0 22px; border: 0; color: var(--dark); }
 .subtitle { color: var(--muted); font-size: 11pt; margin-bottom: 18px; }
 table.meta { display: table !important; width: 100% !important; border-collapse: collapse; margin: 0 0 18px; font-size: 9.2pt; }
 table.meta th { width: 16%; text-align: left; color: var(--muted); font-weight: 400; background: none; border: 0; border-bottom: 1px solid var(--line); padding: 6px 4px; }
