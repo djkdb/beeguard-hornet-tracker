@@ -1,0 +1,17 @@
+giant_hornet_0148 | 빠진 개체에 박스 추가, 박스 크기 조정 | single box covers 2-3 intertwined hornets
+giant_hornet_0156 | 빠진 개체에 박스 추가, 박스 크기 조정 | single box covers 2-3 intertwined hornets
+giant_hornet_0248 | 빠진 개체에 박스 추가 | 
+giant_hornet_0260 | 빠진 개체에 박스 추가, 박스 크기 조정 | single box covers two mating hornets
+giant_hornet_0360 | 빠진 개체에 박스 추가, 박스 크기 조정 | #1 is a real giant hornet tagged BEE (#0 is a combined box over two hornets -> resize)
+giant_hornet_0446 | 빠진 개체에 박스 추가, 박스 크기 조정 | #1 is the left hornet tagged BEE (#0 spans both hornets -> resize)
+giant_hornet_0728 | 빠진 개체에 박스 추가 | 
+honeybee_0015 | 박스 크기 조정 | #1 is a part box on the abdomen of the same bee boxed by #0
+honeybee_0087 | 빠진 개체에 박스 추가 | 
+honeybee_0313 | 박스 크기 조정 | #0 and #1 are two partial boxes on one bee (abdomen vs thorax/head); keep #0, needs resize
+yellow_legged_hornet_0051 | 빠진 개체에 박스 추가 | 
+yellow_legged_hornet_0060 | 박스 크기 조정 | 
+yellow_legged_hornet_0133 | 빠진 개체에 박스 추가, 박스 크기 조정 | #0 on a green blowfly; #2 is a V. velutina wrongly tagged BEE
+yellow_legged_hornet_0139 | 박스 크기 조정 | #1 BEE is a part box on the hornet's abdomen
+yellow_legged_hornet_0199 | 박스 크기 조정 | after deleting #1, #0 and #2 share a top-left corner; one is whole body, one upper part only
+yellow_legged_hornet_0233 | 박스 크기 조정 | 
+yellow_legged_hornet_0536 | 박스 크기 조정 | #1 covers only the abdomen of hornet #0
