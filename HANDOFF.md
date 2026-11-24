@@ -43,4 +43,8 @@ python scripts/train_local.py --data dataset --run n640 --epochs 50             
 주의: 실행할 때마다 results/experiments.csv를 그 실행의 실험만으로 덮어쓴다. 두 실험을 따로 돌렸으면 표를 합칠 것.
 
 ## 진행 기록
-- n320 학습 시작 (클라우드 세션)
+- n320 학습 끝: test mAP50 0.731 / mAP50-95 0.484. models/best.pt, results/ 커밋됨 (results/experiments_n320.csv에 따로 보관)
+- n320으로 추적 영상·GIF·그래프·logs 커밋됨 (꿀벌 구간에서 꿀벌 무리를 장수말벌로 묶는 문제 → 640 이상 입력이 필요)
+- 보고서 1.4~1.7, 3.6~3.7 채움. 남은 【 】: n640 결과, 최종 모델 선택, n640 추적 결과
+- PDF: `node scripts/report_pdf.js` → report/result_report.pdf (현재 n320 기준 판본이 커밋됨)
+- n640 학습: 클라우드 세션 scratch 복사본에서 진행 중 (epoch당 약 3분, 20 epoch). 세션이 끊기면 n320 결과로 제출하거나 train_local.py로 다시 실행
