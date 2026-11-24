@@ -47,9 +47,9 @@
 
 | 구분 | 수집 | 정제 후 | 라벨 검수 후 | 라벨 박스 수 |
 | --- | --- | --- | --- | --- |
-| honeybee | 2,013 | 432 | 397 | – |
-| giant_hornet | 1,687 | 529 | 489 | – |
-| yellow_legged_hornet | 1,787 | 385 | 347 | – |
+| honeybee | 2,013 | 432 | 397 | 486 |
+| giant_hornet | 1,687 | 529 | 489 | 575 |
+| yellow_legged_hornet | 1,787 | 385 | 347 | 371 |
 | hard negative · 배경 | 1,803 · 293 | 152 · 38 | 152 · 38 | 0 (Null) |
 
 분할: Train 996 / Valid 284 / Test 143장 (부류별 70/20/10, seed 0)
