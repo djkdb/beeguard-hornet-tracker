@@ -2,9 +2,9 @@
 
 직접 모으고 라벨링한 데이터로 YOLOv8을 학습해, 영상에서 꿀벌과 두 종의 말벌을 찾고 추적합니다. 추적한 궤적은 파일로 저장하고, 말벌이 한자리에 떠 있으면 정지비행(HOVER)으로 표시합니다. 충북대학교 머신러닝 과제로 진행했습니다. 점수가 잘 나오는 쉬운 주제 대신, 여름방학에 구상한 양봉장 말벌 대응 시스템(BeeGuard)의 첫 단계를 직접 만들어 보는 쪽을 택했습니다.
 
-[![tracking demo](results/demo.gif)](videos/beeguard_tracking.mp4)
+[![honeybee tracking](results/hero.gif)](videos/beeguard_tracking.mp4)
 
-15초 영상(꿀벌 → 장수말벌 → 등검은말벌 구간)을 GIF로 줄인 것으로, 누르면 원본 mp4로 이동합니다. 꿀벌은 얇은 박스와 궤적만, 말벌은 이름과 추적 ID를 함께 표시했습니다. 겹친 꿀벌 일부를 장수말벌로 잘못 잡는 경우와 등검은말벌 구간에서 거의 잡지 못하는 한계도 그대로 남겨 두었습니다.
+벌통 입구의 꿀벌을 한 마리씩 탐지하고 추적 ID와 궤적을 그리는 장면입니다(결과 영상 3.4~4.9초 구간을 천천히 재생). 누르면 15초 전체 영상으로 이동합니다.
 
 [결과 영상](videos/beeguard_tracking.mp4) · [학습 모델](models/best.pt) · [결과보고서 PDF](report/result_report.pdf)
 
@@ -33,6 +33,12 @@
 | [`results/test_confusion_counts.csv`](results/test_confusion_counts.csv) | 테스트 세트 혼동 행렬 (정답 × 예측, 놓침·오탐 포함) |
 | [`results/failure_cases.jpg`](results/failure_cases.jpg) | 종을 헷갈린 사진 모음 |
 | [`results/detection_timeline.png`](results/detection_timeline.png) | 영상의 시간별 탐지 수와 정지비행 구간 |
+
+## 전체 결과 영상
+
+꿀벌 → 장수말벌 → 등검은말벌 구간을 이은 15초 영상입니다. 꿀벌은 얇은 박스와 궤적만, 말벌은 이름과 추적 ID를 함께 표시했습니다. 겹친 꿀벌 일부를 장수말벌로 잘못 잡는 경우, 장수말벌을 등검은말벌로 판정하는 경우, 등검은말벌 구간에서 거의 잡지 못하는 한계도 그대로 남겨 두었습니다.
+
+![full result](results/demo.gif)
 
 ## 시각화
 
