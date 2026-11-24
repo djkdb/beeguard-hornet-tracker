@@ -4,7 +4,11 @@
 
 [![honeybee tracking](results/hero.gif)](videos/beeguard_tracking.mp4)
 
-벌통 입구의 꿀벌을 한 마리씩 추적하는 장면(결과 영상 0~3초)과, 야외에서 떠 있는 장수말벌을 잡아 정지비행(HOVER)으로 표시하는 장면(추가 시험 영상)을 이어 붙였습니다. 누르면 15초 전체 영상으로 이동합니다.
+벌통 입구의 꿀벌을 한 마리씩 추적하는 장면(결과 영상 0~3초)과, 야외에서 떠 있는 장수말벌을 잡아 정지비행(HOVER)으로 표시하는 장면(추가 시험 영상, 말벌 부분을 확대)을 이어 붙였습니다. 누르면 15초 전체 영상으로 이동합니다.
+
+테스트 세트 사진에서의 예측 예시입니다. 세 부류 모두 학습에 쓰지 않은 사진에서 맞게 잡은 경우를 부류별로 3장씩 골랐습니다(틀린 경우는 [`results/failure_cases.jpg`](results/failure_cases.jpg)).
+
+![test predictions](results/test_predictions.jpg)
 
 [결과 영상](videos/beeguard_tracking.mp4) · [학습 모델](models/best.pt) · [결과보고서 PDF](report/result_report.pdf)
 
