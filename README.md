@@ -41,6 +41,12 @@
 
 ![full result](results/demo.gif)
 
+## 추가 시험: 실제 장수말벌 영상
+
+위 영상의 장수말벌 구간(가지에 앉은 한 마리)에서는 종을 등검은말벌로 잘못 판정해서, 2024년 일본 가나가와에서 찍힌 장수말벌 영상(Wikimedia Commons, Nesnad, CC BY-SA 4.0)의 15.5~20.5초 구간으로 따로 시험했습니다. 잎 사이에 작게 떠 있는 장수말벌을 장수말벌로 맞게 잡아 추적했고, 제자리에 떠 있는 동안 HOVER로 표시했습니다([`videos/extra_giant_hornet_kanagawa.mp4`](videos/extra_giant_hornet_kanagawa.mp4)).
+
+![extra giant hornet](results/extra_giant_hornet.gif)
+
 ## 시각화
 
 입력 크기에 따른 차이 (같은 n640 모델, 꿀벌 구간). 640에서는 꿀벌 무리를 장수말벌 하나로 묶고, 1280에서는 한 마리씩 잡습니다.
@@ -136,6 +142,7 @@ report/      결과보고서 (report_draft.md → result_report.pdf)
 | 꿀벌 0:00–0:05 | [Mixkit: Bees at the entrance of the beehive](https://mixkit.co/free-stock-video/bees-at-the-entrance-of-the-beehive-25173/) | azgek | Mixkit Stock Video Free License |
 | 장수말벌 1:26–1:31 | [Wikimedia Commons: Japanese giant hornet.webm](https://commons.wikimedia.org/wiki/File:Japanese_giant_hornet.webm) | The Nature Box | CC BY-SA 3.0 |
 | 등검은말벌 2:40–2:45 | [Wikimedia Commons: Un frelon COINCE son DARD dans ma GoPro.webm](https://commons.wikimedia.org/wiki/File:Un_frelon_COINCE_son_DARD_dans_ma_GoPro.webm) | DD Frelons | CC BY 3.0 |
+| 추가 시험: 장수말벌 0:15.5–0:20.5 | [Wikimedia Commons: Vespa mandarinia - kanagawa - 2024-10-14.webm](https://commons.wikimedia.org/wiki/File:Vespa_mandarinia_-_kanagawa_-_2024-10-14.webm) | Nesnad | CC BY-SA 4.0 |
 
 관련 연구
 
