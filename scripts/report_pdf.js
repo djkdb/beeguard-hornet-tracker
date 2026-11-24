@@ -59,6 +59,7 @@ ul, ol { margin: 4px 0 10px; padding-left: 18px; } li { margin: 2px 0; } li > ul
 strong { font-weight: 700; }
 code { font-family: 'Noto Sans KR', monospace; font-size: 8.4pt; background: var(--soft); border: 1px solid var(--line); border-radius: 3px; padding: 0 3px; }
 hr { display: none; }
+.keep { break-inside: avoid; page-break-inside: avoid; }
 td code { border: 0; background: none; padding: 0; font-size: 8.3pt; }
 
 /* 표지 */
@@ -118,6 +119,24 @@ execFileSync('pandoc', [tmpMd, '-f', 'gfm', '-t', 'html5', '-s', '--metadata', '
       cap.textContent = img.alt; fig.appendChild(cap);
       par.replaceWith(fig);
     });
+    // 제목이 쪽 끝에 홀로 남지 않도록 제목과 바로 뒤 내용을 한 덩어리로 묶는다
+    const kids = [...document.body.children];
+    const isH = el => el && (el.tagName === 'H2' || el.tagName === 'H3');
+    for (let i = 0; i < kids.length; i++) {
+      const el = kids[i];
+      if (!isH(el)) continue;
+      const group = [el];
+      let j = i + 1;
+      if (el.tagName === 'H2') {
+        if (kids[j] && kids[j].tagName === 'H3') { group.push(kids[j]); j++; if (kids[j] && !isH(kids[j])) { group.push(kids[j]); j++; } }
+        else while (kids[j] && !isH(kids[j])) { group.push(kids[j]); j++; }
+      } else if (kids[j] && !isH(kids[j])) { group.push(kids[j]); j++; }
+      const box = document.createElement('div');
+      box.className = 'keep';
+      el.before(box);
+      group.forEach(g => box.appendChild(g));
+      i = j - 1;
+    }
     // 숫자 칸 오른쪽 정렬
     document.querySelectorAll('td').forEach(td => { if (/^[\s\d.,%()~·/msFPS]+$/.test(td.textContent.trim()) && /\d/.test(td.textContent)) td.style.textAlign = 'right'; });
   }, cover);
