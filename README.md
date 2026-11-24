@@ -96,12 +96,13 @@ beeguard-hornet-tracker/
 ├── scripts/
 │   ├── track_trajectory.py    # 탐지·추적·궤적·정지비행·로그
 │   ├── label_size_stats.py    # 입력 해상도별 객체 크기 분석
-│   └── video_tools.py         # 클립 이어 붙이기, H.264 변환, GIF
+│   ├── video_tools.py         # 클립 이어 붙이기, H.264 변환, GIF
+│   └── compare_autolabel.py   # 자동 라벨 vs 검수 후 최종 라벨 비교 (정밀도·재현율·수정량)
 ├── models/best.pt             # 최종 학습 모델
 ├── results/                   # 실험표, 학습 곡선, 혼동 행렬, 그래프, GIF
 ├── videos/beeguard_tracking.mp4
 ├── logs/                      # 추적 로그
-└── report/                    # 결과보고서
+└── report/                    # 결과보고서 (초안: report/report_draft.md)
 ```
 
 ## 재현 방법
