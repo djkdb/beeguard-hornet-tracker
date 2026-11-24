@@ -1,0 +1,24 @@
+{
+  "source": "videos/clips/test.mp4",
+  "frames": 450,
+  "fps": 30.0,
+  "duration_s": 15.0,
+  "unique_tracks_by_class": {
+    "giant_hornet": 19,
+    "honeybee": 4,
+    "yellow_legged_hornet": 3
+  },
+  "hover_events_by_class": {
+    "giant_hornet": 3,
+    "yellow_legged_hornet": 1
+  },
+  "tracks_with_class_switch": 5,
+  "settings": {
+    "imgsz": 320,
+    "conf": 0.25,
+    "tracker": "bytetrack.yaml",
+    "hover_window": 1.0,
+    "hover_speed": 1.0,
+    "hover_min": 1.0
+  }
+}
