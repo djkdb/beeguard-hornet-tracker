@@ -4,17 +4,16 @@
   "fps": 30.0,
   "duration_s": 15.0,
   "unique_tracks_by_class": {
-    "giant_hornet": 19,
-    "honeybee": 4,
-    "yellow_legged_hornet": 3
+    "honeybee": 73,
+    "giant_hornet": 3,
+    "yellow_legged_hornet": 2
   },
   "hover_events_by_class": {
-    "giant_hornet": 3,
     "yellow_legged_hornet": 1
   },
-  "tracks_with_class_switch": 5,
+  "tracks_with_class_switch": 14,
   "settings": {
-    "imgsz": 320,
+    "imgsz": 1280,
     "conf": 0.25,
     "tracker": "bytetrack.yaml",
     "hover_window": 1.0,
