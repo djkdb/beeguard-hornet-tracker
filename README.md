@@ -63,7 +63,7 @@
 | yellow_legged_hornet | 1,787 | 385 | 347 | 371 |
 | 비슷한 곤충 · 배경 | 1,803 · 293 | 152 · 38 | 152 · 38 | 0 |
 
-공개 데이터셋은 쓰지 않았습니다. iNaturalist, GBIF, Wikimedia Commons, Openverse, 네이버, Bing, DuckDuckGo, Baidu에서 모은 뒤 중복과 저품질 사진을 지우고 손으로 검수했습니다. 박스는 Grounding DINO로 먼저 만들고, 번호를 붙인 검수 시트로 AI 검수를 해 고쳤습니다([`labeling/`](labeling/)). 최종 분할은 Train 996 / Valid 284 / Test 143장입니다. 이미지는 저작권 때문에 저장소에 올리지 않았습니다.
+과제 조건에 따라 라벨이 달린 공개 데이터셋은 쓰지 않았습니다. iNaturalist, GBIF, Wikimedia Commons, Openverse, 네이버, Bing, DuckDuckGo, Baidu에서 모은 뒤 중복과 저품질 사진을 지우고 손으로 검수했습니다. 박스는 Grounding DINO로 먼저 만들고, 번호를 붙인 검수 시트로 AI 검수를 해 고쳤습니다([`labeling/`](labeling/)). 최종 분할은 Train 996 / Valid 284 / Test 143장입니다. 이미지는 저작권 때문에 저장소에 올리지 않았습니다.
 
 ## 추적과 궤적
 
