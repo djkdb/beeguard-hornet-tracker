@@ -59,13 +59,14 @@ ul, ol { margin: 4px 0 10px; padding-left: 18px; } li { margin: 2px 0; } li > ul
 strong { font-weight: 700; }
 code { font-family: 'Noto Sans KR', monospace; font-size: 8.4pt; background: var(--soft); border: 1px solid var(--line); border-radius: 3px; padding: 0 3px; }
 hr { display: none; }
+td code { border: 0; background: none; padding: 0; font-size: 8.3pt; }
 
 /* 표지 */
 .cover { padding-top: 4mm; margin-bottom: 18px; }
 .eyebrow { color: var(--accent); font-weight: 700; letter-spacing: .08em; font-size: 9pt; }
 .title { font-size: 22pt; line-height: 1.35; margin: 8px 0 22px; border: 0; color: var(--dark); }
 .subtitle { color: var(--muted); font-size: 11pt; margin-bottom: 18px; }
-table.meta { width: 100%; border-collapse: collapse; margin: 0 0 18px; font-size: 9.2pt; }
+table.meta { display: table !important; width: 100% !important; border-collapse: collapse; margin: 0 0 18px; font-size: 9.2pt; }
 table.meta th { width: 16%; text-align: left; color: var(--muted); font-weight: 400; background: none; border: 0; border-bottom: 1px solid var(--line); padding: 6px 4px; }
 table.meta td { border: 0; border-bottom: 1px solid var(--line); padding: 6px 4px; font-weight: 700; }
 .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 0 0 20px; }
@@ -82,7 +83,7 @@ h3 { font-size: 11pt; color: var(--dark); margin: 18px 0 6px; padding-bottom: 3p
 h2 + p, h3 + p, h3 + ul, h3 + table { break-before: avoid; }
 
 /* 표 */
-table { border-collapse: collapse; width: 100%; font-size: 8.3pt; margin: 6px 0 12px; page-break-inside: avoid; line-height: 1.5; }
+table { display: table !important; table-layout: auto; border-collapse: collapse; width: 100% !important; font-size: 8.3pt; margin: 6px 0 12px; page-break-inside: avoid; line-height: 1.5; }
 th { background: var(--dark); color: #fff; font-weight: 700; text-align: left; padding: 5px 6px; border: 1px solid var(--dark); }
 td { padding: 4px 6px; border: 1px solid var(--line); vertical-align: top; font-variant-numeric: tabular-nums; }
 tbody tr:nth-child(even) td { background: #fafbfc; }
