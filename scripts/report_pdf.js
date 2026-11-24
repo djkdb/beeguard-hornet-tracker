@@ -16,7 +16,8 @@ function csv(file) {
   return rows.map(r => Object.fromEntries(head.map((h, i) => [h, r[i]])));
 }
 const exps = csv(R('results', 'experiments.csv'));
-const best = exps.slice().sort((a, b) => b['mAP50-95'] - a['mAP50-95'])[0];
+const FINAL = 'n640';   // models/best.pt로 쓰는 최종 모델
+const best = exps.find(e => e.exp === FINAL) || exps.slice().sort((a, b) => b['mAP50-95'] - a['mAP50-95'])[0];
 const cm = csv(R('results', 'test_confusion_counts.csv'));
 const row = name => cm.find(r => Object.values(r)[0] === `정답:${name}`);
 const rate = (t, p) => { const r = row(t); const tot = Object.values(r).slice(1).reduce((s, v) => s + +v, 0); return `${(100 * r[`예측:${p}`] / tot).toFixed(1)}%`; };
