@@ -138,7 +138,16 @@ n640의 학습 곡선이 20 epoch에서도 오르고 있어서, 학습률을 0.0
 
 https://github.com/djkdb/beeguard-hornet-tracker
 
-학습 모델은 `models/best.pt`, 결과 영상은 `videos/beeguard_tracking.mp4`에 있고, README 맨 위에서 GIF로도 볼 수 있다. 노트북은 `notebooks/01`(수집·정제), `01b`(자동 라벨링, 검수, 분할), `02`(학습·분석), `03`(추적) 순서로 실행하면 된다.
+| 위치 | 내용 |
+| --- | --- |
+| README 첫 화면 | 꿀벌 20여 마리를 동시에 추적하는 5초 GIF, 결과 표, 학습 곡선과 혼동 행렬, 입력 640·1280 비교 GIF, 궤적 지도, 실제 장수말벌 추가 시험 GIF, 콘셉트 영상 |
+| `models/best.pt` | 최종 학습 모델 (n640). 가중치 평균 모델은 `models/soup.pt` |
+| `videos/` | 15초 결과 영상 `beeguard_tracking.mp4`, 장수말벌 추가 시험 영상, AI 생성 콘셉트 영상 |
+| `logs/` | 프레임별 궤적 `tracks.csv`, 탐지 이벤트 `detections.csv`, 요약 `summary.json` |
+| `results/` | 실험표, 학습 곡선, 혼동 행렬, 실패 사례, 색상 증강 실험, 객체 크기 분석 |
+| `notebooks/` | `01` 수집·정제 → `01b` 자동 라벨링·검수·분할 → `02` 학습·분석 → `03` 추적 |
+| `scripts/` | 추적·궤적·정지비행(`track_trajectory.py`), 후처리(`render_tracks.py`), CPU 학습(`train_local.py`) 등 |
+| `labeling/` | AI 검수 결과와 판정 이유, 직접 고쳐야 할 사진 목록 |
 
 ## 3. 과제 과정에서 경험한 내용
 
