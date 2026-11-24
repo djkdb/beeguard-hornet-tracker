@@ -131,6 +131,7 @@ python scripts/video_tools.py h264 videos/beeguard_tracking_raw.mp4 videos/beegu
 | --- | --- | --- | --- |
 | 꿀벌 · 0:00–0:05 | [Mixkit: Bees at the entrance of the beehive](https://mixkit.co/free-stock-video/bees-at-the-entrance-of-the-beehive-25173/) | azgek | Mixkit Stock Video Free License |
 | 장수말벌 · 1:26–1:31 | [Wikimedia Commons: Japanese giant hornet.webm](https://commons.wikimedia.org/wiki/File:Japanese_giant_hornet.webm) | The Nature Box | CC BY-SA 3.0 |
+| 등검은말벌 · 2:40–2:45 | [Wikimedia Commons: Un frelon COINCE son DARD dans ma GoPro.webm](https://commons.wikimedia.org/wiki/File:Un_frelon_COINCE_son_DARD_dans_ma_GoPro.webm) | DD Frelons | CC BY 3.0 |
 
 **관련 연구**
 
