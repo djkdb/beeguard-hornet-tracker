@@ -55,16 +55,17 @@
 - **수집**: 여러 경로에서 부류별로 크롤링 — iNaturalist·GBIF(학명, 야외 관찰 사진), Wikimedia Commons·Openverse(학명·영문명), 네이버(한국어), Bing·DuckDuckGo(영문명), Baidu(중국어). 이미지마다 출처·라이선스·작성자를 기록
 - **자동 정제**: 깨진 파일, 짧은 변 320px 미만, 극단적 가로세로 비율, 지각 해시 기반 중복 제거 (경로 간 중복은 관찰 사진 쪽을 남김)
 - **수작업 검수**: 일러스트, 표본, 말벌주, 전투기 사진, 다른 말벌 종 제거
-- **라벨링**: Roboflow, Train/Valid/Test = 70/20/10, Roboflow 증강 없음
+- **라벨링**: Grounding DINO로 초기 박스 생성 → Roboflow에서 전수 검수·수정, Train/Valid/Test = 70/20/10, Roboflow 증강 없음
 
 공개 데이터셋은 쓰지 않았습니다. 크롤링한 이미지는 저작권 문제로 저장소에 올리지 않으며, 이미지별 출처 URL은 `sources.csv`로 따로 보관합니다.
 
 ## 방법
 
 1. [`notebooks/01_collect_and_clean.ipynb`](notebooks/01_collect_and_clean.ipynb) — 크롤링, 자동 정제, 번호 붙은 미리보기로 검수, 출처 기록
-2. Roboflow — [라벨링 가이드](docs/labeling_guide.md)에 따라 박스 작업 후 YOLOv8 형식으로 내보내기
-3. [`notebooks/02_train.ipynb`](notebooks/02_train.ipynb) — 사전학습 가중치에서 전이학습, 비교 실험, 테스트 세트 평가
-4. [`notebooks/03_track.ipynb`](notebooks/03_track.ipynb) — 추적 영상, 궤적 로그, 정지비행 표시, 그래프
+2. [`notebooks/01b_auto_label.ipynb`](notebooks/01b_auto_label.ipynb) — Grounding DINO(zero-shot)로 초기 박스 생성, 클래스는 폴더 기준으로 지정
+3. Roboflow — [라벨링 가이드](docs/labeling_guide.md)에 따라 자동 박스를 전수 검수·수정하고, 못 찾은 사진은 직접 라벨링한 뒤 YOLOv8 형식으로 내보내기
+4. [`notebooks/02_train.ipynb`](notebooks/02_train.ipynb) — 사전학습 가중치에서 전이학습, 비교 실험, 테스트 세트 평가
+5. [`notebooks/03_track.ipynb`](notebooks/03_track.ipynb) — 추적 영상, 궤적 로그, 정지비행 표시, 그래프
 
 | 비교 실험 | 확인하려는 것 |
 | --- | --- |
@@ -91,7 +92,7 @@
 beeguard-hornet-tracker/
 ├── dataset/data.yaml          # 부류 정의 (이미지는 미포함)
 ├── docs/labeling_guide.md     # 부류 구별 기준, 박스 규칙, Roboflow 설정
-├── notebooks/                 # 01 수집·정제 → 02 학습·실험 → 03 추적
+├── notebooks/                 # 01 수집·정제 → 01b 자동 라벨링 → 02 학습·실험 → 03 추적
 ├── scripts/
 │   ├── track_trajectory.py    # 탐지·추적·궤적·정지비행·로그
 │   ├── label_size_stats.py    # 입력 해상도별 객체 크기 분석
