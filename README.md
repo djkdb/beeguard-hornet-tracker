@@ -31,14 +31,14 @@
 
 <!-- 02_train.ipynb 실행 후 results/experiments.csv의 값으로 채우기 -->
 
-테스트 세트 기준, Colab T4 GPU.
+테스트 세트 143장 기준. Colab 무료 GPU를 할당받지 못해 CPU(4코어)에서 학습했습니다.
 
-| 실험 | 모델 | 입력 크기 | Precision | Recall | mAP50 | mAP50-95 | FPS |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| n640 | YOLOv8n | 640 | – | – | – | – | – |
-| n960 | YOLOv8n | 960 | – | – | – | – | – |
-| n1280 | YOLOv8n | 1280 | – | – | – | – | – |
+| 실험 | 모델 | 입력 크기 | epoch | Precision | Recall | mAP50 | mAP50-95 | CPU 추론 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| n320 | YOLOv8n | 320 | 12 | 0.664 | 0.670 | 0.731 | 0.484 | 8.7 ms |
+| n640 | YOLOv8n | 640 | 20 | – | – | – | – | – |
 
+- 장수말벌 ↔ 등검은말벌 오인율 (n320): 9.1% / 15.8% — [`results/test_confusion_counts.csv`](results/test_confusion_counts.csv), 실패 사례 [`results/failure_cases.jpg`](results/failure_cases.jpg)
 - 학습 곡선과 혼동 행렬: [`results/`](results/)
 - 입력 해상도별 객체 크기 분포: [`results/label_size_stats.csv`](results/label_size_stats.csv)
 - 시간에 따른 탐지 수와 정지비행 구간: [`results/detection_timeline.png`](results/detection_timeline.png)
