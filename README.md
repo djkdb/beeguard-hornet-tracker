@@ -13,9 +13,9 @@
 | 실험 | 입력 크기 | epoch | Precision | Recall | mAP50 | mAP50-95 | CPU 추론 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | n320 | 320 | 12 | 0.664 | 0.670 | 0.731 | 0.484 | 8.7 ms |
-| n640 | 640 | 20 | 학습 중 | | | | |
+| **n640 (최종)** | 640 | 20 | 0.781 | 0.763 | 0.859 | 0.635 | 28.6 ms |
 
-n320 모델은 장수말벌을 등검은말벌로 9.1%, 등검은말벌을 장수말벌로 15.8% 잘못 판정했습니다.
+최종 모델(n640)의 부류별 AP50은 장수말벌 0.827, 꿀벌 0.881, 등검은말벌 0.868입니다. 장수말벌을 등검은말벌로 잘못 본 비율은 9.1%(5/55), 반대는 10.5%(4/38)였습니다. 추적 영상은 작게 찍힌 꿀벌을 잡기 위해 추론 입력을 1280으로 키워 만들었습니다.
 
 | 파일 | 내용 |
 | --- | --- |
@@ -71,7 +71,7 @@ GPU가 없으면 02 노트북 대신 같은 코드를 로컬에서 실행할 수
 ```bash
 pip install ultralytics
 python scripts/train_local.py --data <dataset_split 폴더> --run n640 --epochs 20
-python scripts/track_trajectory.py --model models/best.pt --source videos/clips/test.mp4 --out videos/out.mp4 --imgsz 640
+python scripts/track_trajectory.py --model models/best.pt --source videos/clips/test.mp4 --out videos/out.mp4 --imgsz 1280
 ```
 
 ## 저장소 구조
