@@ -33,6 +33,16 @@
 | [`results/failure_cases.jpg`](results/failure_cases.jpg) | 종을 헷갈린 사진 모음 |
 | [`results/detection_timeline.png`](results/detection_timeline.png) | 영상의 시간별 탐지 수와 정지비행 구간 |
 
+## 시각화
+
+입력 크기에 따른 차이 (같은 n640 모델, 꿀벌 구간). 640에서는 꿀벌 무리를 장수말벌 하나로 묶고, 1280에서는 한 마리씩 잡습니다.
+
+![640 vs 1280](results/compare_imgsz.gif)
+
+구간별 궤적 지도 ([`logs/tracks.csv`](logs/tracks.csv)를 그린 것, 점은 트랙 시작 위치)
+
+![trajectory map](results/trajectory_map.png)
+
 ## 부류
 
 | 라벨 | 대상 |
