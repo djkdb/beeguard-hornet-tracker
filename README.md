@@ -106,6 +106,12 @@ videos/      결과 영상
 report/      결과보고서 (report_draft.md → result_report.pdf)
 ```
 
+## 지향하는 모습 (AI 생성 콘셉트 영상)
+
+이 저장소는 양봉장 말벌 대응 시스템 BeeGuard의 첫 단계입니다. 최종적으로 그리는 모습을 영상 생성 AI(Renoise, Seedance 2.5)로 만든 15초 콘셉트 영상으로 남겼습니다. 실제 촬영이나 이 모델의 탐지 결과가 아닙니다.
+
+[![BeeGuard concept](results/vision_concept.jpg)](videos/beeguard_vision_concept.mp4)
+
 ## 한계
 
 - 웹 사진은 대부분 가까이서 찍은 것이라, 벌이 작게 찍히는 실제 양봉장 영상과 차이가 큽니다.
