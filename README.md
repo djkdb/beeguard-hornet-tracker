@@ -124,11 +124,12 @@ python scripts/video_tools.py h264 videos/beeguard_tracking_raw.mp4 videos/beegu
 
 ## 출처
 
-**영상 클립** (03_track.ipynb에서 사용한 클립을 적기)
+**영상 클립** (03_track.ipynb가 자동으로 내려받아 5초씩 이어 붙임)
 
 | 클립 | 출처 | 작성자 | 라이선스 |
 | --- | --- | --- | --- |
-| – | – | – | – |
+| 꿀벌 · 0:00–0:05 | [Mixkit: Bees at the entrance of the beehive](https://mixkit.co/free-stock-video/bees-at-the-entrance-of-the-beehive-25173/) | azgek | Mixkit Stock Video Free License |
+| 장수말벌 · 1:26–1:31 | [Wikimedia Commons: Japanese giant hornet.webm](https://commons.wikimedia.org/wiki/File:Japanese_giant_hornet.webm) | The Nature Box | CC BY-SA 3.0 |
 
 **관련 연구**
 
@@ -139,4 +140,4 @@ python scripts/video_tools.py h264 videos/beeguard_tracking_raw.mp4 videos/beegu
 
 ## 라이선스
 
-코드는 [MIT License](LICENSE)를 따릅니다. 학습 이미지는 포함하지 않으며, 결과 영상의 원본 클립은 각 출처의 라이선스를 따릅니다.
+코드는 [MIT License](LICENSE)를 따릅니다. 학습 이미지는 포함하지 않습니다. 결과 영상은 CC BY-SA 3.0 클립을 포함하므로 같은 CC BY-SA 3.0으로 공개합니다(원본 클립 출처는 위 표 참고).
